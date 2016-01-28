@@ -84,7 +84,7 @@ main {
 }
 @media (max-width: 500px) {
   .row {
-    width: 24rem;
+    width: 12rem;
     margin-left: auto;
     margin-right: auto;
     margin: 2.25rem;
