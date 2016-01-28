@@ -17,7 +17,85 @@ h2 {
   font-size: 2em;
 }
 .banner {
+  text-align: center;
+}
+main {
   width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1200px) {
+  main {
+    width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 800px) {
+  main {
+    width: 24rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 500px) {
+  main {
+    width: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.main-footer {
+  text-align: center;
+}
+.row {
+  width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2.25rem;
+}
+.row > div {
+  float: left;
+  margin: 0 2.25rem;
+}
+@media (max-width: 1200px) {
+  .row {
+    width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2.25rem;
+  }
+  .row > div {
+    float: left;
+    margin: 0 2.25rem;
+  }
+}
+@media (max-width: 800px) {
+  .row {
+    width: 24rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2.25rem;
+  }
+  .row > div {
+    float: left;
+    margin: 0 2.25rem;
+  }
+}
+@media (max-width: 500px) {
+  .row {
+    width: 24rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2.25rem;
+  }
+  .row > div {
+    float: left;
+    margin: 0 2.25rem;
+  }
+}
+.w2 {
+  width: 12rem;
   margin-left: auto;
   margin-right: auto;
 }

@@ -17,6 +17,15 @@
     margin-right: auto;
 }
 
+.row(@cols) {
+    .wrapper(@cols);
+    margin: @gutter-width;
+    > div {
+        float: left;
+        margin: 0 @gutter-width;
+    }
+}
+
 
 /*******************************************************/
 
@@ -38,5 +47,39 @@ h2 {
 }
 
 .banner {
+    text-align: center;
+}
+
+main {
     .wrapper(12);
+    @media (max-width: 1200px) {
+        .wrapper(8);
+    }
+    @media (max-width: 800px) {
+        .wrapper(4);
+    }
+    @media (max-width: 500px) {
+        .wrapper(2);
+    }
+}
+
+.main-footer {
+    text-align: center;
+}
+
+.row {
+    .row(12);
+    @media (max-width: 1200px) {
+        .row(8);
+    }
+    @media (max-width: 800px) {
+        .row(4);
+    }
+    @media (max-width: 500px) {
+        .row(4);
+    }
+}
+
+.w2 {
+    .wrapper(2);
 }
