@@ -1,0 +1,42 @@
+/** main.less **/
+
+
+/** VARIABLES **/
+
+@font-root: 16px;
+@font-normal: 23px;
+@color-text: #1d1f20;
+@column-width : unit((96px / @font-root), rem);
+@gutter-width : unit((36px / @font-root), rem);
+
+/** MIXINS **/
+
+.wrapper(@cols) {
+    width: @column-width * @cols;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*******************************************************/
+
+body {
+    font: unit((@font-normal / @font-root), em) / 1.5em Georgia, serif;
+    color: @color-text;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    &:extend(h1);
+    font-size: 2em;
+}
+
+.banner {
+    .wrapper(12);
+}

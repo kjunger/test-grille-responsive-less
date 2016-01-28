@@ -1,0 +1,23 @@
+/** main.less **/
+/** VARIABLES **/
+/** MIXINS **/
+/*******************************************************/
+body {
+  font: 1.4375em / 1.5em Georgia, serif;
+  color: #1d1f20;
+}
+h1,
+h2 {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+}
+h2 {
+  font-size: 2em;
+}
+.banner {
+  width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+}
