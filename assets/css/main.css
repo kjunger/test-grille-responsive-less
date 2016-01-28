@@ -19,6 +19,11 @@ h2 {
 .banner {
   text-align: center;
 }
+.banner img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 main {
   width: 72rem;
   margin-left: auto;
