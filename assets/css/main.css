@@ -3,8 +3,8 @@
 /** MIXINS **/
 /*******************************************************/
 body {
-  font: 1.4375em / 1.5em Georgia, serif;
-  color: #1d1f20;
+  font: 1.4375em / 1.5em Montserrat, serif;
+  color: #333333;
 }
 h1,
 h2 {
@@ -24,27 +24,31 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
-main {
+main,
+.main-nav {
   width: 72rem;
   margin-left: auto;
   margin-right: auto;
 }
 @media (max-width: 1200px) {
-  main {
+  main,
+  .main-nav {
     width: 48rem;
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media (max-width: 800px) {
-  main {
+  main,
+  .main-nav {
     width: 24rem;
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media (max-width: 400px) {
-  main {
+  main,
+  .main-nav {
     width: 12rem;
     margin-left: auto;
     margin-right: auto;
