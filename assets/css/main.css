@@ -3,11 +3,13 @@
 /** MIXINS **/
 /*******************************************************/
 body {
-  font: 1.4375em / 1.5em 'Montserrat', serif;
-  color: #333333;
+  font: 1.4375em / 1.5em 'PT Serif', serif;
+  color: #111111;
+  background-color: #eeeeee;
 }
 h1,
 h2 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 3em;
   font-weight: bold;
   line-height: 1.2em;
@@ -54,6 +56,12 @@ main,
     margin-right: auto;
   }
 }
+.main-nav {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  color: #eeeeee;
+  background-color: #111111;
+}
 .main-footer {
   text-align: center;
 }
@@ -65,7 +73,7 @@ main,
 }
 .row > div {
   float: left;
-  margin: 0 2.25rem;
+  margin: 1em 2.25rem;
 }
 @media (max-width: 1200px) {
   .row {
@@ -76,7 +84,7 @@ main,
   }
   .row > div {
     float: left;
-    margin: 0 2.25rem;
+    margin: 1em 2.25rem;
   }
 }
 @media (max-width: 800px) {
@@ -88,7 +96,7 @@ main,
   }
   .row > div {
     float: left;
-    margin: 0 2.25rem;
+    margin: 1em 2.25rem;
   }
 }
 @media (max-width: 500px) {
@@ -100,7 +108,7 @@ main,
   }
   .row > div {
     float: left;
-    margin: 0 2.25rem;
+    margin: 1em 2.25rem;
   }
 }
 .w-2 {

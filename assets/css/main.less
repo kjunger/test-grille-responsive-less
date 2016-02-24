@@ -5,7 +5,8 @@
 
 @font-root: 16px;
 @font-normal: 23px;
-@color-text: #333333;
+@color-text: #111111;
+@color-bg: #eeeeee;
 @column-width : unit((96px / @font-root), rem);
 @gutter-width : unit((36px / @font-root), rem);
 
@@ -22,7 +23,7 @@
     margin: @gutter-width;
     > div {
         float: left;
-        margin: 0 @gutter-width;
+        margin: 1em @gutter-width;
     }
 }
 
@@ -30,11 +31,13 @@
 /*******************************************************/
 
 body {
-    font: unit((@font-normal / @font-root), em) / 1.5em 'Montserrat', serif;
+    font: unit((@font-normal / @font-root), em) / 1.5em 'PT Serif', serif;
     color: @color-text;
+    background-color: @color-bg;
 }
 
 h1 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 3em;
     font-weight: bold;
     line-height: 1.2em;
@@ -67,6 +70,13 @@ main,
     @media (max-width: 400px) {
         .wrapper(2);
     }
+}
+
+.main-nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: @color-bg;
+    background-color: @color-text;
 }
 
 .main-footer {
